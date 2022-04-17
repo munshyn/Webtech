@@ -1,0 +1,232 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body
+{
+  background-color: azure;
+}
+
+#menubox
+{
+  background-color: white;
+  font-weight: bold;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#menu
+{
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#name
+{
+  font-size: large;
+}
+
+#navigation
+{
+  display: flex;
+  justify-content: flex-end;
+}
+
+#about
+{
+  margin-left: 20px;
+}
+
+a.menu
+{
+  color: black;
+  text-decoration: none;
+}
+
+a.menu:hover
+{
+  color: rgb(0, 110, 255);
+}
+
+#header
+{
+  padding: 170px;
+  background-image: url(../Image/header.jpg);
+  background-size: 100%;
+  background-position: top;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.container
+{
+  margin: 10px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.containerabout
+{
+  margin: 10px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+#introduction
+{
+  width: 1100px;
+  color: white;
+  background-color: rgba(88, 88, 88, 0.61);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  font-weight: bold;
+  display: block;
+  margin: 30px auto;
+  padding: 40px;
+  text-align: center;
+}
+
+#mypic img
+{
+  box-shadow: 0 0 20px grey;
+  border-radius: 20px;
+  margin: 40px;
+  width: 250px;
+  height: 450px;
+  display: flex;
+  justify-content: left;
+}
+
+#myself
+{
+  width: 400px;
+  height: 250px;
+  box-shadow: 0 0 20px grey;
+  border-radius: 20px;
+  margin: 40px;
+  color: white;
+  background-color: rgba(0, 69, 129, 0.658);
+  padding: 50px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+#myself p
+{
+  font-size: medium;
+  line-height: 1.2cm;
+  text-align: justify;
+}
+
+#information
+{
+  box-shadow: 0 0 20px grey;
+  border-radius: 20px;
+  width: 400px;
+  height: 150px;
+  padding: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  background-color: rgb(0, 165, 157);
+}
+
+#information p
+{
+  line-height: 0.7cm;
+}
+
+#aboutpage
+{
+  width: 1100px;
+  color: white;
+  font-weight: bold;
+  background-color: rgba(66, 14, 36, 0.801);
+  border-radius: 10px;
+  display: block;
+  margin: 30px auto;
+  padding: 40px;
+  text-align: center;
+}
+
+#skills
+{
+  margin: 20px 50px;
+  background-color: antiquewhite;
+  box-shadow: 0 0 20px grey;
+  border-radius: 20px;
+}
+
+#skills h3
+{
+  padding: 20px 30px 0 30px;
+}
+
+#skills ul
+{
+  padding: 20px 40px;
+}
+
+#background
+{
+  width: 500px;
+  height: auto;
+  background-color: rgb(253, 255, 158);
+  box-shadow: 0 0 20px grey;
+  border-radius: 20px;
+}
+
+#background h3
+{
+  padding: 20px 30px;
+}
+
+table, th, td
+{
+  background-color: azure;
+  border: 1px solid black;
+  margin: 10px auto;
+}
+
+.tabler
+{
+  border-collapse: collapse;
+  width: 400px;
+}
+
+.tabler th
+{
+  padding: 3px;
+  font-weight: bold;
+}
+
+.tabler td
+{
+  padding: 3px;
+}
+
+#skillset
+{
+  background-color: aliceblue;
+  box-shadow: 0 0 20px grey;
+  border-radius: 20px;
+  width: 200px;
+  padding: 30px;
+  display: block;
+  margin: 30px auto;
+}
