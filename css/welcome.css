@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins&display=swap');
+
 *{
     padding:0;
     margin:0;
@@ -5,14 +7,60 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.nav-link{
+.logo{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-top: 7px;
+}
+
+.logo-link{
+    color: #66fcf1;
     text-decoration: none;
+}
+
+.logo-link:hover{
+    color: #ffffff;
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    /* background-color: #1f2833; */
+    backdrop-filter: blur(2rem);
+    z-index: 1000;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-link{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(219, 219, 219);
+}
+
+.nav-link:visited{
     color: white;
 }
 
 .nav-link:hover{
     color: #66fcf1;
     cursor: pointer;
+}
+
+.dropdown-menu{
+    background-color: #1f2833;
+    border-radius: 6px;
+    z-index: 1000;
+}
+
+.dropdown-item{
+    color: #66fcf1;
 }
 
 .title{
@@ -26,6 +74,11 @@
     font-weight: 700;
     padding-bottom: 20px;
     color: #66fcf1; 
+}
+
+.container{
+    backdrop-filter: blur(2rem);
+    margin-top: 10rem;
 }
 
 .subtitle{
@@ -47,18 +100,6 @@ img{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: 0.8;
-    z-index: -2;
-}
-
-.backdrop
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(to bottom right,black,rgb(0, 51, 51));
-    /* opacity: 50%; */
-    mix-blend-mode: overlay;
+    opacity: 1;
+    z-index: -1;
 }
