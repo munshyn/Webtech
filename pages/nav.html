@@ -1,27 +1,101 @@
-<nav>
+<html>
+
+<head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins&display=swap");
+
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    .logo {
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      padding-top: 7px;
+    }
+
+    .logo-link {
+      color: #66fcf1;
+      text-decoration: none;
+    }
+
+    .logo-link:hover {
+      color: #ffffff;
+      cursor: pointer;
+    }
+
+    .nav-bar {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 20px;
+      backdrop-filter: blur(2rem);
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .nav-link {
+      text-transform: uppercase;
+      text-decoration: none;
+      color: rgb(219, 219, 219);
+    }
+
+    .nav-link:visited {
+      color: rgb(219, 219, 219);
+    }
+
+    .nav-link:hover {
+      color: #66fcf1;
+      cursor: pointer;
+    }
+
+    .nav-active {
+      background-color: #1f2833;
+      transition: 0.8s;
+    }
+
+    .dropdown-menu {
+      background-color: #1f2833;
+      border-radius: 6px;
+    }
+
+    .dropdown-item {
+      color: #66fcf1;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="nav-bar">
     <div class="logo">
-      <a class="logo-link" href="welcome.html"><h3>Panzu</h3></a>
+      <a class="logo-link" href="index.html">
+        <h3>Panzu</h3>
+      </a>
     </div>
-      <ul class="nav">
-        <li class="nav-item">
-          <a class="nav-link" href="aboutus.html">Amongus</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle"
-            data-bs-toggle="dropdown"
-            href="#"
-            role="button"
-            aria-expanded="false"
-            >Members</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="amir.html">Amir</a></li>
-            <li><a class="dropdown-item" href="Fikri.html">Fikri</a></li>
-            <li><a class="dropdown-item" href="husny.html">Husny</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Project</a>
-        </li>
-      </ul>
-  </nav>
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link" href="aboutus.html">Amongus</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+          aria-expanded="false">Members</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="amir.html">Amir</a></li>
+          <li><a class="dropdown-item" href="Fikri.html">Fikri</a></li>
+          <li><a class="dropdown-item" href="husny.html">Husny</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Project</a>
+      </li>
+    </ul>
+  </div>
+</body>
+
+</html>

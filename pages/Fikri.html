@@ -1,148 +1,51 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
-    <title>Fikri Lamin</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--==================== UNICONS ====================-->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-    <link rel="stylesheet" href="../css/fikri.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/profile.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <title>Fikri</title>
 </head>
 
-<body id="body">
-    <header class="header">
-        <nav class="nav container">
-            <a href="#body">
-                <h2>Fikri Lamin</h2>
-            </a>
-            <div class="nav-menu">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="#home">Home</a></li>
-                    <li class="nav-item"><a href="#about">About</a></li>
-                    <li class="nav-item"><a href="#contact">Contact</a></li>
-                    <li class="nav-item"><a href="welcome.html">Group</a></li>
-                </ul>
-            </div>
-            <div class="nav-social nav-list">
-                <div class="nav-social-bg">
-                    <a href="https://twitter.com/?lang=en" target="_blank"><i class="uil uil-twitter-alt nav-icon"></i></i></a>
-                </div>
-                <div class="nav-social-bg">
-                    <a href="https://www.instagram.com" target="_blank"><i class="uil uil-instagram nav-icon"></i></a>
-                </div>
-                <div class="nav-social-bg">
-                    <a href="https://www.linkedin.com" target="_blank"><i class="uil uil-linkedin-alt nav-icon"></i></a>
-                </div>
-            </div>
+<body>
+    <img class="background-img" src="../images/background.jpg"></img>
+    <!--Navigation bar-->
+    <div id="nav-placeholder"></div>
 
-        </nav>
-    </header>
-    <main>
-        <!--==================== MAIN ====================-->
-        <section class="main section" id="home">
-            <div class="container">
+    <div class="container p-5">
+        <div class="row">
+            <div class="col d-flex justify-content-center align-items-center">
                 <div class="main-img">
-                    <!-- <img src="Main Image 2.png" alt=""> -->
-                </div>
-                <div class="main-content content">
-                    <h1 class="main-title title">Hello, my<br>name is Fikri <br>Lamin</h1>
-                    <h4 class="main-subtitle subtitle">Software Engineer</h4>
-                    <p class="main-desctiption description">
-                        Welcome to my profile page. Feel free to browse this page and further inquiry can contact me
-                        thought the provided form.
-                    </p>
-                    <button class="main-btn btn">About Me</button>
+                    <img src="../images/Fikri-profile2.png" alt="" style="width: 70%;margin-left: 70px;">
                 </div>
             </div>
-        </section>
-
-        <!--==================== ABOUT ME ====================-->
-        <section class="about section" id="about">
-            <div class="container">
-                <div class="about-img">
-                    <img src="../images/Fikri-profile2.png" alt="">
-                </div>
-                <div class="about-content content">
-                    <h1 class="about-title title">About Me</h1>
-                    <p class="about-desctiption description">
+            <div class="col">
+                <div>
+                    <h1 class="title">
+                        My name is<br>
+                        <span id="greeting">Fikri Lamin</span>
+                    </h1>
+                    <h4 class="subtitle mt-5">Software Engineer</h4>
+                    <p class="description mt-4">
                         3rd year Computer Science student with a major in software
                         engineering who possesses a strong foundation in object oriented
                         programming. Consistently develop, debug, test and deliver any
                         project in the past within the time constraint.
                     </p>
-                    <button class="about-btn btn">My CV/Resume</button>
                 </div>
             </div>
-        </section>
+        </div>
 
-        <!--==================== CONTACT ME ====================-->
-        <section class="contact section" id="contact">
-            <div class="contact-container container">
-                <h2 class="section_title">Contact Me</h2>
-                <p class="section_subtitle">Get in touch</p>
-                <div class="contact-grid">
-                    <div>
-                        <div class="contact_information">
-                            <i class="uil uil-phone-alt contact_icon"></i>
-
-                            <div>
-                                <h3 class="contact_title">Call Me</h3>
-                                <span class="contact_subtitle">+6017-650-8667</span>
-                            </div>
-                        </div>
-
-                        <div class="contact_information">
-                            <i class="uil uil-envelope contact_icon"></i>
-
-                            <div>
-                                <h3 class="contact_title">Email</h3>
-                                <span class="contact_subtitle">muhd.fikrilamin@gmail.com</span>
-                            </div>
-                        </div>
-
-                        <div class="contact_information">
-                            <i class="uil uil-map-marker contact_icon"></i>
-
-                            <div>
-                                <h3 class="contact_title">Location</h3>
-                                <span class="contact_subtitle">Malaysia - Universiti Teknologi Malaysia(UTM),
-                                    Johor</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <form action="" class="contact_form grid">
-                        <div class="contact_inputs">
-                            <div class="contact_content">
-                                <label for="" class="contact_label">Name</label>
-                                <input type="text" class="contact_input">
-                            </div>
-                            <div class="contact_content">
-                                <label for="" class="contact_label">Email</label>
-                                <input type="email" class="contact_input">
-                            </div>
-                        </div>
-                        <div class="contact_content">
-                            <label for="" class="contact_label">Project</label>
-                            <input type="text" class="contact_input">
-                        </div>
-                        <div class="contact_content">
-                            <label for="" class="contact_label">Message</label>
-                            <textarea name="" id="" cols="0" rows="7" class="contact_input" ></textarea>
-                        </div>
-
-                        <div>
-                            <a href="#" class="btn">
-                                Send Message
-                                <i class="uil uil-message button_icon"></i>
-                            </a>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </section>
-    </main>
-    <script src="../js/fikri.js" async defer></script>
+    </div>
+    <script src="../js/navbar.js" async defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

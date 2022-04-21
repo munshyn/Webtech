@@ -1,102 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins&display=swap');
 
-*{
-    padding:0;
-    margin:0;
-    box-sizing:border-box;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
-.logo{
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    padding-top: 7px;
-}
-
-.logo-link{
-    color: #66fcf1;
-    text-decoration: none;
-}
-
-.logo-link:hover{
-    color: #ffffff;
-    cursor: pointer;
-}
-
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px;
-    /* background-color: #1f2833; */
-    backdrop-filter: blur(2rem);
-    z-index: 1000;
-}
-
-.nav{
-    display: flex;
-    justify-content: space-around;
-}
-
-.nav-link{
-    text-transform: uppercase;
-    text-decoration: none;
-    color: rgb(219, 219, 219);
-}
-
-.nav-link:visited{
-    color: white;
-}
-
-.nav-link:hover{
-    color: #66fcf1;
-    cursor: pointer;
-}
-
-.dropdown-menu{
-    background-color: #1f2833;
-    border-radius: 6px;
-    z-index: 1000;
-}
-
-.dropdown-item{
-    color: #66fcf1;
-}
-
-.title{
-    font-size: 28px;
+.title {
+    padding: 5rem;
+    justify-content: center;
+    font-size: 50px;
     font-weight: 600;
     color: white;
 }
 
-.title #greeting{
-    font-size: 60px;
+.title #greeting {
+    font-size: 200px;
     font-weight: 700;
     padding-bottom: 20px;
-    color: #66fcf1; 
+    color: #66fcf1;
 }
 
-.container{
-    backdrop-filter: blur(2rem);
-    margin-top: 10rem;
+.container {
+    backdrop-filter: blur(2px);
+    margin-top: 15rem;
+    border-radius: 50px;
 }
 
-.subtitle{
+.about-us {
+    backdrop-filter: blur(5px);
+    margin-top: 7rem;
+    border-radius: 50px;
+}
+
+.subtitle {
     font-size: 35px;
     font-weight: 600;
     color: #66fcf1;
 }
 
-.description{
+.description {
     color: white;
     font-size: 20px;
-    /* color: #FDB5A4; */
 }
 
-img{
-    position: absolute;
-    top:0;
-    left: 0;
+.description h2{
+    color: #66fcf1;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team{
+    margin-top: 5rem;
+}
+
+.card {
+    background: transparent;
+    height: 425%;
+    backdrop-filter: blur(5px);
+}
+
+.card img {
+    margin: 3px 3px;
+    width: 100%;
+}
+
+.role {
+    font-size: 40px;
+}
+
+img {
+    position: fixed;
     width: 100%;
     height: 100%;
     object-fit: cover;
